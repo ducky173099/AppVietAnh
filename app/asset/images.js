@@ -25,7 +25,10 @@ const images = {
     wrapButtonRadio: require('./wrapButtonRadio.png'),
     bgTimeRadio: require('./bgTimeRadio.png'),
     bgTrackRadio: require('./bgTrackRadio.png'),
-
+    ic_copydown: require('./ic_copydown.png'),
+    ic_down: require('./ic_down.png'),
+    ic_heart: require('./ic_heart.png'),
+    ic_plus: require('./ic_plus.png'),
 
 };
 

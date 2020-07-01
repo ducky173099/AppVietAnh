@@ -1,4 +1,4 @@
-import { GET_LIST_MUSIC, GET_SUCCSESS_LIST_MUSIC, GET_ERROR_LIST_MUSIC } from './ActionTypes';
+import { GET_LIST_MUSIC, GET_SUCCSESS_LIST_MUSIC, GET_ERROR_LIST_MUSIC, TOGGLE_PLAYER_ACTION } from './ActionTypes';
 
 export const getMusicAction = data => {
     return{
@@ -17,6 +17,13 @@ export const getSuccessListMusic = data => {
 export const getErrorListMusic = message => {
     return{
         type: GET_ERROR_LIST_MUSIC,
+        message
+    }
+};
+
+export const togglePlayerAction = message => {
+    return{
+        type: TOGGLE_PLAYER_ACTION,
         message
     }
 };

@@ -7,7 +7,8 @@ export default {
     gray: '#707070',
     orangeLight: '#EFB479',
     orangeDark: '#5A4839',
-    whiteGray: '#D8D8D8'
+    whiteGray: '#D8D8D8',
+    grayDark: '#868686',
 
 
 };
